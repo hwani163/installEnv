@@ -1,6 +1,7 @@
 sudo apt update
 sudo apt install gitless
 sudo apt install zsh
+rm -rf ~/.oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # zsh-syntax-highlighting
