@@ -16,3 +16,5 @@ eco -e "\n  zsh-autosuggestions" >> ~/.zshrc
 eco -e "\n)" >> ~/.zshrc
 
 source ~/.zshrc
+
+ssh-keygen -t rsa -C "hwani163@naver.com"
