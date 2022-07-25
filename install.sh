@@ -12,6 +12,11 @@ echo \
 sudo apt-get update
 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+sudo curl -L \ 
+"https://github.com/docker/compose/releases/download/1.28.5/dockercompose-$(uname -s)-$(uname -m)" \ 
+-o /usr/local/bin/docker-compose
+
  
 sudo apt install gitless
 sudo apt install zsh
