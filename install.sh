@@ -9,11 +9,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 echo -e "\nZSH_THEME="robbyrussell"" >> ~/.zshrc
-eco -e "\nplugins=(" >> ~/.zshrc
-eco -e "\n  git" >> ~/.zshrc
-eco -e "\n  zsh-syntax-highlighting" >> ~/.zshrc
-eco -e "\n  zsh-autosuggestions" >> ~/.zshrc
-eco -e "\n)" >> ~/.zshrc
+echo -e "\nplugins=(" >> ~/.zshrc
+echo -e "\n  git" >> ~/.zshrc
+echo -e "\n  zsh-syntax-highlighting" >> ~/.zshrc
+echo -e "\n  zsh-autosuggestions" >> ~/.zshrc
+echo -e "\n)" >> ~/.zshrc
 
 source ~/.zshrc
 
