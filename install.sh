@@ -38,3 +38,5 @@ echo ")" >> ~/.zshrc
 source ~/.zshrc
 
 ssh-keygen -t rsa -C "hwani163@naver.com"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
